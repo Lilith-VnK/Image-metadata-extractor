@@ -1,6 +1,5 @@
 # Image-metadata-extractor
-Tentu, ini adalah draf deskripsi README.md yang profesional, bersih, dan informatif untuk repositori GitHub Anda. Deskripsi ini dirancang untuk menarik perhatian pengembang lain atau perekrut dengan menonjolkan fitur teknis yang Anda miliki.
-📸 Advanced Image Metadata Extractor API
+📸 Image Metadata Extractor API
 Sebuah API berbasis Python Flask yang dirancang untuk mengekstraksi metadata mendalam dari gambar, melakukan analisis forensik sederhana untuk mendeteksi manipulasi perangkat lunak, serta mengidentifikasi asal foto (apakah berasal dari kamera asli atau platform media sosial).
 
 ---
