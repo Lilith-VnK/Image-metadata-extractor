@@ -21,7 +21,9 @@ Sebuah API berbasis Python Flask yang dirancang untuk mengekstraksi metadata men
 
 ## 📥 Instalasi
  * Clone Repositori:
-   ```git clone https://github.com/Lilith-VnK/Image-metadata-extractor/```
+   ```
+   git clone https://github.com/Lilith-VnK/Image-metadata-extractor/
+   ```
    
  * Masuk direktori
    ```
