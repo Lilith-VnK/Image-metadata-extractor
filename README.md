@@ -10,20 +10,28 @@ Sebuah API berbasis Python Flask yang dirancang untuk mengekstraksi metadata men
  * Deteksi Media Sosial: Algoritma heuristik untuk mendeteksi jejak digital dari platform seperti Instagram, Facebook, WhatsApp, dan TikTok melalui analisis profil warna ICC dan pembersihan EXIF.
  * Analisis Forensik Perangkat Lunak: Mendeteksi penggunaan aplikasi pengeditan seperti Adobe Photoshop, Lightroom, Canva, PicsArt, dan Snapseed.
  * Optimasi Memori: Menggunakan sistem context manager untuk memastikan file sementara dihapus segera setelah diproses, menjaga penyimpanan server tetap bersih.
-🛠️ Arsitektur Teknologi
+   
+## 🛠️ Arsitektur Teknologi
  * Framework: Flask (Pure API Mode)
  * Image Processing: Pillow (PIL)
  * Metadata Handling: Piexif
  * Security: Werkzeug (Secure Filename Handling)
-📥 Instalasi
+
+---
+
+## 📥 Instalasi
  * Clone Repositori:
    ```git clone https://github.com/Lilith-VnK/Image-metadata-extractor/```
    
  * Masuk direktori
-   ```cd image-metadata-extractor```
+   ```
+   cd image-metadata-extractor
+   ```
 
  * Instal Dependensi:
-   ```pip install flask pillow piexif werkzeug```
+   ```
+   pip install flask pillow piexif werkzeug
+   ```
 
  * Jalankan Aplikasi:
    ```
@@ -38,6 +46,7 @@ Endpoint Utama
  * Method: POST
  * Payload: multipart/form-data
  * Key: image (File)
+   
 Contoh Request (cURL)
 ```
 curl -X POST -F "image=@foto_test.jpg" http://127.0.0.1:5000/extract
