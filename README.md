@@ -20,6 +20,7 @@ Sebuah API berbasis Python Flask yang dirancang untuk mengekstraksi metadata men
  * Clone Repositori:
    ```git clone https://github.com/Lilith-VnK/Image-metadata-extractor/```
    
+ * Masuk direktori
    ```cd image-metadata-extractor```
 
  * Instal Dependensi:
@@ -27,19 +28,21 @@ Sebuah API berbasis Python Flask yang dirancang untuk mengekstraksi metadata men
 
  * Jalankan Aplikasi:
    ```
-   python app.py
+   python Image_extractor.py
    ```
    
 ---
 
-## 🧪 Cara Penggunaan
+## 🧪Cara Penggunaan
 Endpoint Utama
  * URL: /extract
  * Method: POST
  * Payload: multipart/form-data
  * Key: image (File)
 Contoh Request (cURL)
+```
 curl -X POST -F "image=@foto_test.jpg" http://127.0.0.1:5000/extract
+```
 
 Contoh Respons JSON
 ```
